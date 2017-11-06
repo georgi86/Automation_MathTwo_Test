@@ -721,7 +721,7 @@ AFFFFAH/2Q==
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
-		KeySequence="D:\Joro\AUTOMATION\TESTS\SnapX\RegressinMathTwo\Routine\MathActions.mxy"
+		KeySequence="D:\Joro\GIT_Automations\AutomationMathTwo\Routine\MathActions.mxy"
 		duration="100ms"
 		enabled="True"
 		optional="False"
@@ -1954,7 +1954,7 @@ RQAae2+WRum45q/RRSAKKKKACiiigD//2Q==
 			<bindings>
 			</bindings>
 			<filename>
-				D:\Joro\AUTOMATION\TESTS\SnapX\RegressinMathTwo\Reports\Math.STA
+				D:\Joro\GIT_Automations\AutomationMathTwo\Reports\Math.STA
 			</filename>
 			<workingdir>
 				D:\Joro\AUTOMATION\TESTS\SnapX\RegressinMathTwo\Reports

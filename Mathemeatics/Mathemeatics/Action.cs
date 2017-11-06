@@ -107,8 +107,8 @@ namespace Mathemeatics
             repo.OpenSnapXRoutine.Text1148.PressKeys("{Delete}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\AUTOMATION\\TESTS\\SnapX\\RegressinMathTwo\\Routine\\MathActions.mxy'.", new RecordItemIndex(6));
-            Keyboard.Press("D:\\Joro\\AUTOMATION\\TESTS\\SnapX\\RegressinMathTwo\\Routine\\MathActions.mxy");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationMathTwo\\Routine\\MathActions.mxy'.", new RecordItemIndex(6));
+            Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationMathTwo\\Routine\\MathActions.mxy");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'OpenSnapXRoutine.Text1148'.", repo.OpenSnapXRoutine.Text1148Info, new RecordItemIndex(7));
@@ -145,20 +145,50 @@ namespace Mathemeatics
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.ButtonNew' at 17;16.", repo.SnapXUntitled.ButtonNewInfo, new RecordItemIndex(15));
             repo.SnapXUntitled.ButtonNew.Click("17;16");
-            Delay.Milliseconds(200);
+            Delay.Milliseconds(4000);
             
-            Report.Log(ReportLevel.Info, "Application", "Run application 'D:\\Joro\\AUTOMATION\\TESTS\\SnapX\\RegressinMathTwo\\Reports\\Math.STA' with arguments '' in normal mode.", new RecordItemIndex(16));
-            Host.Local.RunApplication("D:\\Joro\\AUTOMATION\\TESTS\\SnapX\\RegressinMathTwo\\Reports\\Math.STA", "", "D:\\Joro\\AUTOMATION\\TESTS\\SnapX\\RegressinMathTwo\\Reports", false);
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Application", "Run application 'D:\\Joro\\GIT_Automations\\AutomationMathTwo\\Reports\\Math.STA' with arguments '' in normal mode.", new RecordItemIndex(16));
+            Host.Local.RunApplication("D:\\Joro\\GIT_Automations\\AutomationMathTwo\\Reports\\Math.STA", "", "D:\\Joro\\AUTOMATION\\TESTS\\SnapX\\RegressinMathTwo\\Reports", false);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Invoke Action", "Invoking Maximize() on item 'MathSTANotepad'.", repo.MathSTANotepad.SelfInfo, new RecordItemIndex(17));
             repo.MathSTANotepad.Self.Maximize();
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (WindowText='+270.0000 \r\n+2.5000 \r\n+7.5000 \r\n+2.0000 \r\n+5.0000 \r\n-1.0000 \r\n+179.0000 \r\n+1.0000 \r\n+1.0000 \r\n+180.0000 \r\n+10.0000 \r\n+5.0000 \r\n+5.0000 \r\n+1.0000 \r\n+5.0000 \r\n+12.0711 \r\n+7.5000 \r\n+12.5000 \r\n+14.1421 \r\n+25.0000 \r\n+7.0711 \r\n+10.0000 \r\n+7.5000 \r\n+8.0711 \r\n+3.5000 \r\n+5.0000 \r\n+5.0000 \r\n+5.0000 \r\n+10.0000 \r\n+0.0000 \r\n+10.0000 \r\n+5.0000 \r\n+2.5000 \r\n+275.0000 \r\n+12.0711 \r\n+7.5000 \r\n+7.5000 \r\n+6.0000 \r\n+4.0000 \r\n+5.0000 \r\n+5.0000 \r\n+22.5000 \r\n+10.0000 \r\n+5.0000 \r\n+22.5000 \r\n+7.5000 \r\n+6.0000 \r\n+9.0000 \r\n+23.5000 \r\n+10.0000 \r\n+27.5000 \r\n+5.0000 \r\n+12.0711 \r\n+30.0000 \r\n+2.5000 \r\n+10.0000 \r\n+22.5000 \r\n+5.0000 \r\n+125.0000 \r\n+65.0000 \r\n+10.0000 \r\n+90.0000 \r\n+30.0000 \r\n+10.0000 \r\n+97.0711 \r\n+37.5000 \r\n+7.5000 \r\n+91.0000 \r\n+31.0000 \r\n+6.0000 \r\n+95.0000 \r\n+30.0000 \r\n+10.0000 \r\n+52.5000 \r\n+5.0000 \r\n+125.0000 \r\n+10.0000 \r\n+47.5000 \r\n+10.0000 \r\n+90.0000 \r\n+5.0000 \r\n+10.0000 \r\n+270.0000 \r\n+97.0711 \r\n+12.5000 \r\n+7.5000 \r\n+91.0000 \r\n+6.0000 \r\n+38.5000 \r\n+95.0000 \r\n+5.0000 \r\n+42.5000 \r\n+5.0000 \r\n+90.0000 \r\n+95.0000 \r\n+27.5000 \r\n+60.0000 \r\n+10.0000 \r\n+180.0000 \r\n+35.0000 \r\n+67.5000 \r\n+5.0000 \r\n+180.0000 \r\n+10.0000 \r\n+75.0000 \r\n+5.0000 \r\n+12.5000 \r\n+15.0000 \r\n+50.0000 \r\n+10.0000 \r\n+12.5000 \r\n+10.0000 \r\n+42.5000 \r\n+7.5000 \r\n+19.5711 \r\n+17.5000 \r\n+47.5000 \r\n+7.5000 \r\n+13.5000 \r\n+11.0000 \r\n+41.0000 \r\n+9.0000 \r\n+17.5000 \r\n+10.0000 \r\n+45.0000 \r\n+5.0000 \r\n+17.5000 \r\n+32.5000 \r\n+62.5000 \r\n+10.0000 \r\n+102.5000 \r\n+40.0000 \r\n+70.0000 \r\n+10.0000 \r\n+102.5000 \r\n+15.0000 \r\n+77.5000 \r\n+10.0000 \r\n+25.0000 \r\n+20.0000 \r\n+85.0000 \r\n+10.0000 \r\n') on item 'MathSTANotepad.Text15'.", repo.MathSTANotepad.Text15Info, new RecordItemIndex(18));
-            Validate.Attribute(repo.MathSTANotepad.Text15Info, "WindowText", "+270.0000 \r\n+2.5000 \r\n+7.5000 \r\n+2.0000 \r\n+5.0000 \r\n-1.0000 \r\n+179.0000 \r\n+1.0000 \r\n+1.0000 \r\n+180.0000 \r\n+10.0000 \r\n+5.0000 \r\n+5.0000 \r\n+1.0000 \r\n+5.0000 \r\n+12.0711 \r\n+7.5000 \r\n+12.5000 \r\n+14.1421 \r\n+25.0000 \r\n+7.0711 \r\n+10.0000 \r\n+7.5000 \r\n+8.0711 \r\n+3.5000 \r\n+5.0000 \r\n+5.0000 \r\n+5.0000 \r\n+10.0000 \r\n+0.0000 \r\n+10.0000 \r\n+5.0000 \r\n+2.5000 \r\n+275.0000 \r\n+12.0711 \r\n+7.5000 \r\n+7.5000 \r\n+6.0000 \r\n+4.0000 \r\n+5.0000 \r\n+5.0000 \r\n+22.5000 \r\n+10.0000 \r\n+5.0000 \r\n+22.5000 \r\n+7.5000 \r\n+6.0000 \r\n+9.0000 \r\n+23.5000 \r\n+10.0000 \r\n+27.5000 \r\n+5.0000 \r\n+12.0711 \r\n+30.0000 \r\n+2.5000 \r\n+10.0000 \r\n+22.5000 \r\n+5.0000 \r\n+125.0000 \r\n+65.0000 \r\n+10.0000 \r\n+90.0000 \r\n+30.0000 \r\n+10.0000 \r\n+97.0711 \r\n+37.5000 \r\n+7.5000 \r\n+91.0000 \r\n+31.0000 \r\n+6.0000 \r\n+95.0000 \r\n+30.0000 \r\n+10.0000 \r\n+52.5000 \r\n+5.0000 \r\n+125.0000 \r\n+10.0000 \r\n+47.5000 \r\n+10.0000 \r\n+90.0000 \r\n+5.0000 \r\n+10.0000 \r\n+270.0000 \r\n+97.0711 \r\n+12.5000 \r\n+7.5000 \r\n+91.0000 \r\n+6.0000 \r\n+38.5000 \r\n+95.0000 \r\n+5.0000 \r\n+42.5000 \r\n+5.0000 \r\n+90.0000 \r\n+95.0000 \r\n+27.5000 \r\n+60.0000 \r\n+10.0000 \r\n+180.0000 \r\n+35.0000 \r\n+67.5000 \r\n+5.0000 \r\n+180.0000 \r\n+10.0000 \r\n+75.0000 \r\n+5.0000 \r\n+12.5000 \r\n+15.0000 \r\n+50.0000 \r\n+10.0000 \r\n+12.5000 \r\n+10.0000 \r\n+42.5000 \r\n+7.5000 \r\n+19.5711 \r\n+17.5000 \r\n+47.5000 \r\n+7.5000 \r\n+13.5000 \r\n+11.0000 \r\n+41.0000 \r\n+9.0000 \r\n+17.5000 \r\n+10.0000 \r\n+45.0000 \r\n+5.0000 \r\n+17.5000 \r\n+32.5000 \r\n+62.5000 \r\n+10.0000 \r\n+102.5000 \r\n+40.0000 \r\n+70.0000 \r\n+10.0000 \r\n+102.5000 \r\n+15.0000 \r\n+77.5000 \r\n+10.0000 \r\n+25.0000 \r\n+20.0000 \r\n+85.0000 \r\n+10.0000 \r\n");
+
+            string results = ((Mathemeatics.MathemeaticsRepositoryFolders.MathSTANotepadAppFolder)repo.MathSTANotepad.Text15Info.ParentFolder).Text15.TextValue;
+            string[] ReadResults = Regex.Split(results, "[\r\n]+");
+
+            string HardcodedResults = "+270.0000 \r\n+2.5000 \r\n+7.5000 \r\n+2.0000 \r\n+5.0000 \r\n-1.0000 \r\n+179.0000 \r\n+1.0000 \r\n+1.0000 \r\n+180.0000 \r\n+10.0000 \r\n+5.0000 \r\n+5.0000 \r\n+1.0000 \r\n+5.0000 \r\n+12.0711 \r\n+7.5000 \r\n+12.5000 \r\n+14.1421 \r\n+25.0000 \r\n+7.0711 \r\n+10.0000 \r\n+7.5000 \r\n+8.0711 \r\n+3.5000 \r\n+5.0000 \r\n+5.0000 \r\n+5.0000 \r\n+10.0000 \r\n+0.0000 \r\n+10.0000 \r\n+5.0000 \r\n+2.5000 \r\n+275.0000 \r\n+12.0711 \r\n+7.5000 \r\n+7.5000 \r\n+6.0000 \r\n+4.0000 \r\n+5.0000 \r\n+5.0000 \r\n+22.5000 \r\n+10.0000 \r\n+5.0000 \r\n+22.5000 \r\n+7.5000 \r\n+6.0000 \r\n+9.0000 \r\n+23.5000 \r\n+10.0000 \r\n+27.5000 \r\n+5.0000 \r\n+12.0711 \r\n+30.0000 \r\n+2.5000 \r\n+10.0000 \r\n+22.5000 \r\n+5.0000 \r\n+125.0000 \r\n+65.0000 \r\n+10.0000 \r\n+90.0000 \r\n+30.0000 \r\n+10.0000 \r\n+97.0711 \r\n+37.5000 \r\n+7.5000 \r\n+91.0000 \r\n+31.0000 \r\n+6.0000 \r\n+95.0000 \r\n+30.0000 \r\n+10.0000 \r\n+52.5000 \r\n+5.0000 \r\n+125.0000 \r\n+10.0000 \r\n+47.5000 \r\n+10.0000 \r\n+90.0000 \r\n+5.0000 \r\n+10.0000 \r\n+270.0000 \r\n+97.0711 \r\n+12.5000 \r\n+7.5000 \r\n+91.0000 \r\n+6.0000 \r\n+38.5000 \r\n+95.0000 \r\n+5.0000 \r\n+42.5000 \r\n+5.0000 \r\n+90.0000 \r\n+95.0000 \r\n+27.5000 \r\n+60.0000 \r\n+10.0000 \r\n+180.0000 \r\n+35.0000 \r\n+67.5000 \r\n+5.0000 \r\n+180.0000 \r\n+10.0000 \r\n+75.0000 \r\n+5.0000 \r\n+12.5000 \r\n+15.0000 \r\n+50.0000 \r\n+10.0000 \r\n+12.5000 \r\n+10.0000 \r\n+42.5000 \r\n+7.5000 \r\n+19.5711 \r\n+17.5000 \r\n+47.5000 \r\n+7.5000 \r\n+13.5000 \r\n+11.0000 \r\n+41.0000 \r\n+9.0000 \r\n+17.5000 \r\n+10.0000 \r\n+45.0000 \r\n+5.0000 \r\n+17.5000 \r\n+32.5000 \r\n+62.5000 \r\n+10.0000 \r\n+102.5000 \r\n+40.0000 \r\n+70.0000 \r\n+10.0000 \r\n+102.5000 \r\n+15.0000 \r\n+77.5000 \r\n+10.0000 \r\n+25.0000 \r\n+20.0000 \r\n+85.0000 \r\n+10.0000 \r\n";
+            string[] ReadHardcodedResults = Regex.Split(HardcodedResults, "[\r\n]+");
+
+            int iResultsLine = ReadHardcodedResults.Length;
+
+            bool bResultsOK = true;
+
+            for (int i = 0; i < iResultsLine; i++)
+            {
+                bool bResultslineAreSame = ReadHardcodedResults[i].Equals(ReadResults[i]);
+
+                if (!bResultslineAreSame)
+                {
+                    Ranorex.Report.Error(ReadResults[i]);
+                    Ranorex.Report.Error("it should be ");
+                    Ranorex.Report.Error(ReadHardcodedResults[i]);
+
+                    bResultsOK = false;
+                }
+
+            } //for (int i = 0; i < iResultsLine; i++)
+
+            if (bResultsOK)
+            {
+                Ranorex.Report.Success("The test was sucessfully performed");
+            }
             Delay.Milliseconds(100);
-            
+
+
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'MathSTANotepad.Text15'.", repo.MathSTANotepad.Text15Info, new RecordItemIndex(19));
             Host.Current.CloseApplication(repo.MathSTANotepad.Text15, new Duration(0));
             Delay.Milliseconds(0);
