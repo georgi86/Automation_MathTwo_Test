@@ -1,0 +1,157 @@
+﻿<repository
+id="281d57a4-17c8-4b67-a1fd-dd20047daab2"
+name="MathemeaticsRepository"
+rxversion="7.0">
+	<codegen
+	classname="MathemeaticsRepository"
+	namespace="Mathemeatics">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="28d655f1-4564-4728-ad52-37dfa9766cd4"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="ccf92206-af50-4136-9952-698b41b49f95"
+		isrooted="True"
+		name="SnapXUntitled"
+		refpath="/form[@title='Snap-X - [Untitled]']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="ba419d41-c69c-48d1-9428-1fa124397ddb"
+			name="SnapXUntitled"
+			refimgid="e61da060-fbda-4a54-9c0b-3188832785ee"
+			refpath="/form[@title='Snap-X - [Untitled]']/titlebar[@accessiblerole='TitleBar']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="d1f7f33d-2726-4f36-88b2-45264cc236a8"
+			name="ButtonOK"
+			refimgid="c8c4d028-7fe2-4977-b198-bb8b408a79cf"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container/form//button[@text='&amp;OK' and @controlid='1148']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="40d45e32-333d-4aab-b79d-85e6da556c3c"
+			name="ButtonNew"
+			refimgid="9282e0ba-75e3-468c-ae9c-65636a5cee35"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container/form//container/toolbar/button[@text='New' and @commandid='57600']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="9ea4a455-c5f6-44e0-9ddb-3a5225feb9d4"
+			name="Finish"
+			refimgid="6ac548ce-8087-4643-adea-084ef2ba3457"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container/form/?/?/element/element/container/button[@text='Finish' and @controlid='3165']
+			</item>
+			<basepath>
+				/form[@title='Snap-X - [Untitled]']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="355f3ab4-d94d-49c1-bfa1-85e2d66b36a7"
+		isrooted="True"
+		name="OpenSnapXRoutine"
+		refpath="/form[@title='Open Snap-X Routine']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="9c021e9b-b98f-464c-a374-8b08d9242a64"
+			name="Text1148"
+			refimgid="22f75fb4-1aae-4a89-9989-4d37a691b17d"
+			refpath="/form[@title='Open Snap-X Routine']/combobox[@controlid='1148']/text[@controlid='1148']"
+			searchtimeout="30000ms">
+				/form[@title='Open Snap-X Routine']/?/?/text[@controlid='1148']
+			</item>
+			<basepath>
+				/form[@title='Open Snap-X Routine']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e01a7f7d-9603-4644-9644-02c95b7d8d97"
+		isrooted="True"
+		name="MathSTANotepad"
+		refpath="/form[@title='Math.STA - Notepad']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="ba80f494-2b1f-4e14-8568-80b095c7222c"
+			name="Text15"
+			refimgid="6c1776eb-5be0-437c-b3d8-6e5db781c6f0"
+			refpath="/form[@title='Math.STA - Notepad']/text[@controlid='15']"
+			searchtimeout="30000ms">
+				/form[@title='Math.STA - Notepad']/text[@controlid='15']
+			</item>
+			<basepath>
+				/form[@title='Math.STA - Notepad']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKPSURBVDhPjZHLTxNRFMbZm7j2/zG6cEPUxD07
+486QaCIhYHhoqZSXpRFsAVseQaUBQkHBSqGl005n2k470+l0Xi2lD2irjWv5vDMotdEFJzk5NzO5
+3/f7zu34X/VNzeAq85+a5dT07XsPQJ3UcKvzPvx61ZzruRNzevi8OV9RPEaDCbgtnf2/r3Z0ULXa
+dVssW5YbP5CpNZGofkOkVEfg+Aw7WgVeIrIo5OHkVAwGWFgP45gY7GqRuHn9piOeE6V6E/xpE2y5
+gaNiDf58FVtKCR+lY7gFHTMJBf1faDhjmXYBR1weWhT0A0o9xqFSgF/S4RNUeFM5LMdFzDECpqmU
+6fx4bRcrDN8uYItJe+ty0cudfgdTaSBM8PcLVWxrZYJfxFKG4Kc0TDA5dG8eIFGptwuMREVtV624
+AnIBe9kL9zXivhLPYp7JEPc0xkIcBvYZPFzaglattQSsicQ1a1TMbyonc9FyHaHimZndpxJ36cLd
+lVJhjysYDqfx1BfEz/PzlsAonb3zmpXZVbEw/0nUsMEr+MBJWCLZXTEjO3EPJjF0wOKZL4Seja9o
+NJstgRFaHHFyyrYnrS0Eiqf4rFewKZfwnmzeQzb/ltMwxeZgoUX0+RnYwykYdSkwHBEO3eSyM6m8
+86ZlrCYluNkMZmM87GTzo4Y7efuevRi6vX4sUMl2gkFK0FycOm1nZY9PLWGN5F7OFDCX1uFIyBhj
+JLyIiOgNGvlDoAnlJUFfJH3jZVSUyJIcM5y6+Ce7sfk3UR6TRxyshGCYEPT6aTxa9iFbqrYInh8J
+dwkBLFHRdJogWcfJW4+Ts83oWBaT5JvRNjqLJzth092oywh/V07VTfWr9H8Fxge6NowfV2m3pbP/
+F0Wgr4voafeUAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

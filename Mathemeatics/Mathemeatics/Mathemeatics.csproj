@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{CC442C10-CED0-40BA-B6A6-3F08FD0C7B3D}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Mathemeatics</RootNamespace>
+    <AssemblyName>Mathemeatics</AssemblyName>
+    <RanorexVersion>7.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>b767441a-b252-49d7-b1a6-65760203a713</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>bdd30a6a-5693-4350-8a02-75df80e8a187</id>
+    </Compile>
+    <Compile Include="MathemeaticsRepository.cs">
+      <BoundTo>b767441a-b252-49d7-b1a6-65760203a713</BoundTo>
+      <DependentUpon>MathemeaticsRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>2f31f948-6478-49ec-bf3c-879059f380df</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>acee5fac-0ce1-411d-a242-baf855ab1ba5</id>
+    </Compile>
+    <Compile Include="Action.cs">
+      <BoundTo>4a556409-2360-460c-9b3a-1457f75358cb</BoundTo>
+      <DependentUpon>Action.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>32fdc2c5-4f35-4329-9b96-b51877f1ca1b</id>
+    </Compile>
+    <Compile Include="Action.UserCode.cs">
+      <BoundTo>4a556409-2360-460c-9b3a-1457f75358cb</BoundTo>
+      <DependentUpon>Action.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>21eb425b-9e05-4478-a033-987fab0fe6d8</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>13662003-ad49-4678-be10-0c11a31f2fb7</id>
+    </None>
+    <None Include="MathemeaticsRepository.rximg">
+      <BoundTo>b767441a-b252-49d7-b1a6-65760203a713</BoundTo>
+      <DependentUpon>MathemeaticsRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>e5f37a98-8b9a-4559-afbf-defbdb5ea887</id>
+    </None>
+    <None Include="MathemeaticsRepository.rxrep">
+      <id>b767441a-b252-49d7-b1a6-65760203a713</id>
+      <repoid>281d57a4-17c8-4b67-a1fd-dd20047daab2</repoid>
+      <reporootid>28d655f1-4564-4728-ad52-37dfa9766cd4</reporootid>
+    </None>
+    <None Include="Action.rxrec">
+      <BoundTo>b767441a-b252-49d7-b1a6-65760203a713</BoundTo>
+      <id>4a556409-2360-460c-9b3a-1457f75358cb</id>
+      <recordtableid>99f745ec-010b-4a1d-b1b0-b36fcf692623</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mathemeatics.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>573a1c1a-0937-4d9f-814f-419b3bc85fb5</id>
+    </Content>
+    <Content Include="Mathemeatics.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>b3ef57a3-23a1-4a73-8902-47f769e8a570</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>
