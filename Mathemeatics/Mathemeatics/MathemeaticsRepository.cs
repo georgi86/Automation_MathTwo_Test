@@ -108,8 +108,7 @@ namespace Mathemeatics
         public partial class SnapXUntitledAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _snapxuntitledInfo;
-            RepoItemInfo _buttonokInfo;
-            RepoItemInfo _buttonnewInfo;
+            RepoItemInfo _buttonokInfo;            
             RepoItemInfo _finishInfo;
 
             /// <summary>
@@ -119,8 +118,7 @@ namespace Mathemeatics
                     base("SnapXUntitled", "/form[@title='Snap-X - [Untitled]']", parentFolder, 30000, null, true, "ccf92206-af50-4136-9952-698b41b49f95", "")
             {
                 _snapxuntitledInfo = new RepoItemInfo(this, "SnapXUntitled", "titlebar[@accessiblerole='TitleBar']", 30000, null, "ba419d41-c69c-48d1-9428-1fa124397ddb");
-                _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "container/form//button[@text='&OK' and @controlid='1148']", 30000, null, "d1f7f33d-2726-4f36-88b2-45264cc236a8");
-                _buttonnewInfo = new RepoItemInfo(this, "ButtonNew", "container/form//container/toolbar/button[@text='New' and @commandid='57600']", 30000, null, "40d45e32-333d-4aab-b79d-85e6da556c3c");
+                _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "container/form//button[@text='&OK' and @controlid='1148']", 30000, null, "d1f7f33d-2726-4f36-88b2-45264cc236a8");               
                 _finishInfo = new RepoItemInfo(this, "Finish", "container/form/?/?/element/element/container/button[@text='Finish' and @controlid='3165']", 30000, null, "9ea4a455-c5f6-44e0-9ddb-3a5225feb9d4");
             }
 
@@ -194,31 +192,7 @@ namespace Mathemeatics
                 {
                     return _buttonokInfo;
                 }
-            }
-
-            /// <summary>
-            /// The ButtonNew item.
-            /// </summary>
-            [RepositoryItem("40d45e32-333d-4aab-b79d-85e6da556c3c")]
-            public virtual Ranorex.Button ButtonNew
-            {
-                get
-                {
-                    return _buttonnewInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ButtonNew item info.
-            /// </summary>
-            [RepositoryItemInfo("40d45e32-333d-4aab-b79d-85e6da556c3c")]
-            public virtual RepoItemInfo ButtonNewInfo
-            {
-                get
-                {
-                    return _buttonnewInfo;
-                }
-            }
+            }           
 
             /// <summary>
             /// The Finish item.

@@ -73,8 +73,8 @@ namespace Mathemeatics
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", "7.0")]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 300;
-            Keyboard.DefaultKeyPressTime = 100;
+            Mouse.DefaultMoveTime = 500;
+            Keyboard.DefaultKeyPressTime = 200;
             Delay.SpeedFactor = 1.00;
 
             Init();
@@ -119,15 +119,22 @@ namespace Mathemeatics
             Report.Log(ReportLevel.Info, "Mouse", "Click somewhere in the TitleBar to get a focus on all options in the Menu Bar\r\nMouse Left Click item 'SnapXUntitled.SnapXUntitled' at 535;8.", repo.SnapXUntitled.SnapXUntitledInfo, new RecordItemIndex(8));
             repo.SnapXUntitled.SnapXUntitled.Click("535;8");
             Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LMenu}'.", new RecordItemIndex(9));
+
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LMenu}'.", new RecordItemIndex(9));
+            //Keyboard.Press("{LMenu}");
+            //Delay.Milliseconds(0);
+
+            // "Alt" Button
+            Report.Log(ReportLevel.Info, "Keyboard", "\"Alt\" Button\r\nKey sequence '{LMenu}'.", new RecordItemIndex(1));
             Keyboard.Press("{LMenu}");
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'f'.", new RecordItemIndex(10));
+
+            // "F" Button
+            Report.Log(ReportLevel.Info, "Keyboard", "\"F\" Button\r\nKey sequence 'f'.", new RecordItemIndex(2));
             Keyboard.Press("f");
             Delay.Milliseconds(0);
-            
+
+            // "R" Button
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'r'.", new RecordItemIndex(11));
             Keyboard.Press("r");
             Delay.Milliseconds(0);
@@ -142,10 +149,21 @@ namespace Mathemeatics
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.Finish' at 41;11.", repo.SnapXUntitled.FinishInfo, new RecordItemIndex(14));
             repo.SnapXUntitled.Finish.Click("41;11");
             Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.ButtonNew' at 17;16.", repo.SnapXUntitled.ButtonNewInfo, new RecordItemIndex(15));
-            repo.SnapXUntitled.ButtonNew.Click("17;16");
-            Delay.Milliseconds(4000);
+
+            // "Alt" Button
+            Report.Log(ReportLevel.Info, "Keyboard", "\"Alt\" Button\r\nKey sequence '{LMenu}'.", new RecordItemIndex(1));
+            Keyboard.Press("{LMenu}");
+            Delay.Milliseconds(0);
+
+            // "F" Button
+            Report.Log(ReportLevel.Info, "Keyboard", "\"F\" Button\r\nKey sequence 'f'.", new RecordItemIndex(2));
+            Keyboard.Press("f");
+            Delay.Milliseconds(0);
+
+            // "N" Button
+            Report.Log(ReportLevel.Info, "Keyboard", "\"N\" Button\n\nKey sequence 'n'.", new RecordItemIndex(3));
+            Keyboard.Press("n");
+            Delay.Milliseconds(2000);            
             
             Report.Log(ReportLevel.Info, "Application", "Run application 'D:\\Joro\\GIT_Automations\\AutomationMathTwo\\Reports\\Math.STA' with arguments '' in normal mode.", new RecordItemIndex(16));
             Host.Local.RunApplication("D:\\Joro\\GIT_Automations\\AutomationMathTwo\\Reports\\Math.STA", "", "D:\\Joro\\AUTOMATION\\TESTS\\SnapX\\RegressinMathTwo\\Reports", false);
