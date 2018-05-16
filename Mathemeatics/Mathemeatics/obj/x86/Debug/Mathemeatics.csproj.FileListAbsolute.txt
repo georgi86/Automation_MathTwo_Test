@@ -122,5 +122,3 @@ D:\Joro\GIT_Automations_SNAP\AutomationMathTwo\Mathemeatics\Mathemeatics\bin\Deb
 D:\Joro\GIT_Automations_SNAP\AutomationMathTwo\Mathemeatics\Mathemeatics\bin\Debug\Ranorex.Plugin.WinForms.xml
 D:\Joro\GIT_Automations_SNAP\AutomationMathTwo\Mathemeatics\Mathemeatics\bin\Debug\Ranorex.Plugin.Wpf.xml
 D:\Joro\GIT_Automations_SNAP\AutomationMathTwo\Mathemeatics\Mathemeatics\obj\x86\Debug\Mathemeatics.csprojResolveAssemblyReference.cache
-D:\Joro\GIT_Automations\AutomationMathTwo\Mathemeatics\Mathemeatics\obj\x86\Debug\Mathemeatics.csproj.CoreCompileInputs.cache
-D:\Joro\GIT_Automations\AutomationMathTwo\Mathemeatics\Mathemeatics\obj\x86\Debug\Mathemeatics.csproj.CopyComplete
