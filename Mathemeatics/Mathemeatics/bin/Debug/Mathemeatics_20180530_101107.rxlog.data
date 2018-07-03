@@ -6,7 +6,7 @@
 		duration="0ms"
 		durationms="0"
 		type="root"
-		rid="1205fa1500ffec46"
+		rid="12ce497618cd9b3e"
 		totalerrorcount="0"
 		totalwarningcount="0"
 		totalsuccesstestcasecount="1"
@@ -24,8 +24,8 @@
 		oslanguage="en-US"
 		dtnlanguage="en-US"
 		screenresolution="1920x1080"
-		timestamp="5/10/2018 13:42:16"
-		timestampiso="2018-05-10T10:42:16"
+		timestamp="5/30/2018 10:11:07"
+		timestampiso="2018-05-30T07:11:07"
 		timeoutfactor="1">
 		<detail>
 			Ranorex Testscript
@@ -33,9 +33,9 @@
 		<activity
 			result="Success"
 			duration="1m"
-			durationms="61327"
+			durationms="60535"
 			type="test-suite"
-			rid="15237001743b24c"
+			rid="1a711a135086886"
 			totalerrorcount="0"
 			totalwarningcount="0"
 			totalsuccesstestcasecount="1"
@@ -53,9 +53,9 @@
 			<activity
 				result="Success"
 				duration="1m"
-				durationms="61315"
+				durationms="60512"
 				type="test-case"
-				rid="1639621146ca82"
+				rid="fb093361d729b00"
 				totalerrorcount="0"
 				totalwarningcount="0"
 				totalsuccesstestcasecount="1"
@@ -73,9 +73,9 @@
 				<activity
 					result="Success"
 					duration="1m"
-					durationms="61311"
+					durationms="60508"
 					type="test-module"
-					rid="23bd3046a8602020"
+					rid="2b86db91358c823d"
 					totalerrorcount="0"
 					totalwarningcount="0"
 					totalsuccesstestcasecount="0"
@@ -94,10 +94,10 @@
 					<varbindings>
 					</varbindings>
 					<item
-						timeRelativeToTestSuiteStartTime="00:00.071"
-						timeRelativeToTestModuleStartTime="00:00.004"
-						timeWallClock="13:42:16"
-						time="00:00.071"
+						timeRelativeToTestSuiteStartTime="00:00.045"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="10:11:07"
+						time="00:00.045"
 						level="Info"
 						category="Mouse">
 						<message>
@@ -116,10 +116,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:01.450"
-						timeRelativeToTestModuleStartTime="00:01.383"
-						timeWallClock="13:42:18"
-						time="00:01.450"
+						timeRelativeToTestSuiteStartTime="00:01.185"
+						timeRelativeToTestModuleStartTime="00:01.143"
+						timeWallClock="10:11:09"
+						time="00:01.185"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -133,10 +133,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:01.817"
-						timeRelativeToTestModuleStartTime="00:01.750"
-						timeWallClock="13:42:18"
-						time="00:01.817"
+						timeRelativeToTestSuiteStartTime="00:01.550"
+						timeRelativeToTestModuleStartTime="00:01.508"
+						timeWallClock="10:11:09"
+						time="00:01.550"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -150,10 +150,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:02.187"
-						timeRelativeToTestModuleStartTime="00:02.120"
-						timeWallClock="13:42:18"
-						time="00:02.187"
+						timeRelativeToTestSuiteStartTime="00:01.933"
+						timeRelativeToTestModuleStartTime="00:01.891"
+						timeWallClock="10:11:09"
+						time="00:01.933"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -167,10 +167,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:02.556"
-						timeRelativeToTestModuleStartTime="00:02.489"
-						timeWallClock="13:42:19"
-						time="00:02.556"
+						timeRelativeToTestSuiteStartTime="00:02.297"
+						timeRelativeToTestModuleStartTime="00:02.255"
+						timeWallClock="10:11:10"
+						time="00:02.297"
 						level="Info"
 						category="Mouse">
 						<message>
@@ -189,10 +189,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:04.256"
-						timeRelativeToTestModuleStartTime="00:04.189"
-						timeWallClock="13:42:20"
-						time="00:04.256"
+						timeRelativeToTestSuiteStartTime="00:03.949"
+						timeRelativeToTestModuleStartTime="00:03.907"
+						timeWallClock="10:11:11"
+						time="00:03.949"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -211,10 +211,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:04.649"
-						timeRelativeToTestModuleStartTime="00:04.582"
-						timeWallClock="13:42:21"
-						time="00:04.649"
+						timeRelativeToTestSuiteStartTime="00:04.380"
+						timeRelativeToTestModuleStartTime="00:04.338"
+						timeWallClock="10:11:12"
+						time="00:04.380"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -228,10 +228,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:17.854"
-						timeRelativeToTestModuleStartTime="00:17.787"
-						timeWallClock="13:42:34"
-						time="00:17.854"
+						timeRelativeToTestSuiteStartTime="00:17.608"
+						timeRelativeToTestModuleStartTime="00:17.566"
+						timeWallClock="10:11:25"
+						time="00:17.608"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -250,10 +250,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:18.266"
-						timeRelativeToTestModuleStartTime="00:18.199"
-						timeWallClock="13:42:34"
-						time="00:18.266"
+						timeRelativeToTestSuiteStartTime="00:18.010"
+						timeRelativeToTestModuleStartTime="00:17.968"
+						timeWallClock="10:11:25"
+						time="00:18.010"
 						level="Info"
 						category="Mouse">
 						<message>
@@ -272,10 +272,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:19.924"
-						timeRelativeToTestModuleStartTime="00:19.857"
-						timeWallClock="13:42:36"
-						time="00:19.924"
+						timeRelativeToTestSuiteStartTime="00:19.575"
+						timeRelativeToTestModuleStartTime="00:19.533"
+						timeWallClock="10:11:27"
+						time="00:19.575"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -289,10 +289,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:20.313"
-						timeRelativeToTestModuleStartTime="00:20.246"
-						timeWallClock="13:42:37"
-						time="00:20.313"
+						timeRelativeToTestSuiteStartTime="00:19.950"
+						timeRelativeToTestModuleStartTime="00:19.908"
+						timeWallClock="10:11:27"
+						time="00:19.950"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -306,10 +306,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:20.689"
-						timeRelativeToTestModuleStartTime="00:20.622"
-						timeWallClock="13:42:37"
-						time="00:20.689"
+						timeRelativeToTestSuiteStartTime="00:20.335"
+						timeRelativeToTestModuleStartTime="00:20.293"
+						timeWallClock="10:11:28"
+						time="00:20.335"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -323,10 +323,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:21.055"
-						timeRelativeToTestModuleStartTime="00:20.988"
-						timeWallClock="13:42:37"
-						time="00:21.055"
+						timeRelativeToTestSuiteStartTime="00:20.714"
+						timeRelativeToTestModuleStartTime="00:20.672"
+						timeWallClock="10:11:28"
+						time="00:20.714"
 						level="Info"
 						category="Mouse">
 						<message>
@@ -345,10 +345,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:26.353"
-						timeRelativeToTestModuleStartTime="00:26.286"
-						timeWallClock="13:42:43"
-						time="00:26.353"
+						timeRelativeToTestSuiteStartTime="00:26.667"
+						timeRelativeToTestModuleStartTime="00:26.625"
+						timeWallClock="10:11:34"
+						time="00:26.667"
 						level="Info"
 						category="Delay">
 						<message>
@@ -362,10 +362,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:51.441"
-						timeRelativeToTestModuleStartTime="00:51.374"
-						timeWallClock="13:43:08"
-						time="00:51.441"
+						timeRelativeToTestSuiteStartTime="00:51.744"
+						timeRelativeToTestModuleStartTime="00:51.702"
+						timeWallClock="10:11:59"
+						time="00:51.744"
 						level="Info"
 						category="Mouse">
 						<message>
@@ -384,10 +384,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:54.321"
-						timeRelativeToTestModuleStartTime="00:54.254"
-						timeWallClock="13:43:11"
-						time="00:54.321"
+						timeRelativeToTestSuiteStartTime="00:55.045"
+						timeRelativeToTestModuleStartTime="00:55.003"
+						timeWallClock="10:12:02"
+						time="00:55.045"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -401,10 +401,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:54.673"
-						timeRelativeToTestModuleStartTime="00:54.606"
-						timeWallClock="13:43:11"
-						time="00:54.673"
+						timeRelativeToTestSuiteStartTime="00:56.679"
+						timeRelativeToTestModuleStartTime="00:56.637"
+						timeWallClock="10:12:04"
+						time="00:56.679"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -418,10 +418,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:55.039"
-						timeRelativeToTestModuleStartTime="00:54.972"
-						timeWallClock="13:43:11"
-						time="00:55.039"
+						timeRelativeToTestSuiteStartTime="00:57.044"
+						timeRelativeToTestModuleStartTime="00:57.002"
+						timeWallClock="10:12:04"
+						time="00:57.044"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -437,10 +437,10 @@ Key sequence 'n'.
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:57.418"
-						timeRelativeToTestModuleStartTime="00:57.351"
-						timeWallClock="13:43:14"
-						time="00:57.418"
+						timeRelativeToTestSuiteStartTime="00:59.414"
+						timeRelativeToTestModuleStartTime="00:59.372"
+						timeWallClock="10:12:07"
+						time="00:59.414"
 						level="Info"
 						category="Application">
 						<message>
@@ -454,10 +454,10 @@ Key sequence 'n'.
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:57.647"
-						timeRelativeToTestModuleStartTime="00:57.580"
-						timeWallClock="13:43:14"
-						time="00:57.647"
+						timeRelativeToTestSuiteStartTime="00:59.613"
+						timeRelativeToTestModuleStartTime="00:59.571"
+						timeWallClock="10:12:07"
+						time="00:59.613"
 						level="Info"
 						category="Invoke Action">
 						<message>
@@ -476,10 +476,10 @@ Key sequence 'n'.
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:57.899"
-						timeRelativeToTestModuleStartTime="00:57.832"
-						timeWallClock="13:43:14"
-						time="00:57.899"
+						timeRelativeToTestSuiteStartTime="00:59.806"
+						timeRelativeToTestModuleStartTime="00:59.764"
+						timeWallClock="10:12:07"
+						time="00:59.806"
 						level="Info"
 						category="Validation">
 						<message>
@@ -498,10 +498,10 @@ Key sequence 'n'.
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="01:01.171"
-						timeRelativeToTestModuleStartTime="01:01.104"
-						timeWallClock="13:43:17"
-						time="01:01.171"
+						timeRelativeToTestSuiteStartTime="01:00.311"
+						timeRelativeToTestModuleStartTime="01:00.269"
+						timeWallClock="10:12:08"
+						time="01:00.311"
 						level="Success"
 						category="User">
 						<message>
@@ -514,10 +514,10 @@ Key sequence 'n'.
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="01:01.328"
-						timeRelativeToTestModuleStartTime="01:01.261"
-						timeWallClock="13:43:18"
-						time="01:01.328"
+						timeRelativeToTestSuiteStartTime="01:00.492"
+						timeRelativeToTestModuleStartTime="01:00.450"
+						timeWallClock="10:12:08"
+						time="01:00.492"
 						level="Info"
 						category="Application">
 						<message>

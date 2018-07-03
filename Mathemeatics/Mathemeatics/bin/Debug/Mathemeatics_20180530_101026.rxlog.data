@@ -6,7 +6,7 @@
 		duration="0ms"
 		durationms="0"
 		type="root"
-		rid="c9d8dc7778376a0"
+		rid="16e7d8bc33775802"
 		totalerrorcount="1"
 		totalwarningcount="0"
 		totalsuccesstestcasecount="0"
@@ -24,18 +24,18 @@
 		oslanguage="en-US"
 		dtnlanguage="en-US"
 		screenresolution="1920x1080"
-		timestamp="5/10/2018 13:42:06"
-		timestampiso="2018-05-10T10:42:06"
+		timestamp="5/30/2018 10:10:26"
+		timestampiso="2018-05-30T07:10:26"
 		timeoutfactor="1">
 		<detail>
 			Ranorex Testscript
 		</detail>
 		<activity
 			result="Failed"
-			duration="4.36s"
-			durationms="4360"
+			duration="14.39s"
+			durationms="14390"
 			type="test-suite"
-			rid="10988077fbe78a32"
+			rid="ad00f6d16fbdeaa"
 			totalerrorcount="1"
 			totalwarningcount="0"
 			totalsuccesstestcasecount="0"
@@ -52,10 +52,10 @@
 			</params>
 			<activity
 				result="Failed"
-				duration="4.36s"
-				durationms="4356"
+				duration="14.39s"
+				durationms="14386"
 				type="test-case"
-				rid="85f69307be44964"
+				rid="1af6be880d72f080"
 				totalerrorcount="1"
 				totalwarningcount="0"
 				totalsuccesstestcasecount="0"
@@ -72,10 +72,10 @@
 				activity-exectype="execute">
 				<activity
 					result="Failed"
-					duration="4.35s"
-					durationms="4352"
+					duration="14.38s"
+					durationms="14383"
 					type="test-module"
-					rid="13fd69f38e60fb96"
+					rid="13a935b7bceccf58"
 					totalerrorcount="1"
 					totalwarningcount="0"
 					totalsuccesstestcasecount="0"
@@ -94,10 +94,10 @@
 					<varbindings>
 					</varbindings>
 					<item
-						timeRelativeToTestSuiteStartTime="00:00.060"
-						timeRelativeToTestModuleStartTime="00:00.003"
-						timeWallClock="13:42:06"
-						time="00:00.060"
+						timeRelativeToTestSuiteStartTime="00:00.063"
+						timeRelativeToTestModuleStartTime="00:00.004"
+						timeWallClock="10:10:26"
+						time="00:00.063"
 						level="Info"
 						category="Mouse">
 						<message>
@@ -116,10 +116,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:01.623"
-						timeRelativeToTestModuleStartTime="00:01.566"
-						timeWallClock="13:42:07"
-						time="00:01.623"
+						timeRelativeToTestSuiteStartTime="00:01.215"
+						timeRelativeToTestModuleStartTime="00:01.156"
+						timeWallClock="10:10:28"
+						time="00:01.215"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -133,10 +133,10 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:02.011"
-						timeRelativeToTestModuleStartTime="00:01.954"
-						timeWallClock="13:42:08"
-						time="00:02.011"
+						timeRelativeToTestSuiteStartTime="00:01.603"
+						timeRelativeToTestModuleStartTime="00:01.544"
+						timeWallClock="10:10:28"
+						time="00:01.603"
 						level="Info"
 						category="Keyboard">
 						<message>
@@ -150,14 +150,14 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:02.370"
-						timeRelativeToTestModuleStartTime="00:02.313"
-						timeWallClock="13:42:08"
-						time="00:02.370"
+						timeRelativeToTestSuiteStartTime="00:01.994"
+						timeRelativeToTestModuleStartTime="00:01.935"
+						timeWallClock="10:10:28"
+						time="00:01.994"
 						level="Info"
 						category="Keyboard"
-						errimg="images_Mathemea_69896601\Mathemea_69896601_0a5ef6b0_trace.jpg"
-						errthumb="images_Mathemea_69896601\Mathemea_69896601_0a5ef6b0_trace_thumb.jpg">
+						errimg="images_Mathemea_dc554f3a\Mathemea_dc554f3a_f5c15ef1_trace.jpg"
+						errthumb="images_Mathemea_dc554f3a\Mathemea_dc554f3a_f5c15ef1_trace_thumb.jpg">
 						<message>
 							&quot;O&quot; Button<br/>Key sequence 'o'.
 						</message>
@@ -169,14 +169,14 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:02.736"
-						timeRelativeToTestModuleStartTime="00:02.679"
-						timeWallClock="13:42:08"
-						time="00:02.736"
+						timeRelativeToTestSuiteStartTime="00:02.393"
+						timeRelativeToTestModuleStartTime="00:02.335"
+						timeWallClock="10:10:29"
+						time="00:02.393"
 						level="Info"
 						category="Mouse"
-						errimg="images_Mathemea_69896601\Mathemea_69896601_308add27_trace.jpg"
-						errthumb="images_Mathemea_69896601\Mathemea_69896601_308add27_trace_thumb.jpg">
+						errimg="images_Mathemea_dc554f3a\Mathemea_dc554f3a_aaf23564_trace.jpg"
+						errthumb="images_Mathemea_dc554f3a\Mathemea_dc554f3a_aaf23564_trace_thumb.jpg">
 						<message>
 							Mouse Left DoubleClick item 'OpenSnapXRoutine.Text1148' at 203;5.
 						</message>
@@ -193,14 +193,14 @@
 						</metainfo>
 					</item>
 					<item
-						timeRelativeToTestSuiteStartTime="00:04.220"
-						timeRelativeToTestModuleStartTime="00:04.163"
-						timeWallClock="13:42:10"
-						time="00:04.220"
+						timeRelativeToTestSuiteStartTime="00:14.226"
+						timeRelativeToTestModuleStartTime="00:14.167"
+						timeWallClock="10:10:41"
+						time="00:14.226"
 						level="Error"
 						category="User"
-						errimg="images_Mathemea_69896601\Mathemea_69896601_36e80a30_trace.jpg"
-						errthumb="images_Mathemea_69896601\Mathemea_69896601_36e80a30_trace_thumb.jpg">
+						errimg="images_Mathemea_dc554f3a\Mathemea_dc554f3a_68cf9896_trace.jpg"
+						errthumb="images_Mathemea_dc554f3a\Mathemea_dc554f3a_68cf9896_trace_thumb.jpg">
 						<message>
 							The test run has been aborted by the user.
 						</message>
