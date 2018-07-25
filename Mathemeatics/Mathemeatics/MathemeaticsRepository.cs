@@ -110,6 +110,7 @@ namespace Mathemeatics
             RepoItemInfo _snapxuntitledInfo;
             RepoItemInfo _buttonokInfo;            
             RepoItemInfo _finishInfo;
+            RepoItemInfo _buttongoInfo;
 
             /// <summary>
             /// Creates a new SnapXUntitled  folder.
@@ -120,6 +121,8 @@ namespace Mathemeatics
                 _snapxuntitledInfo = new RepoItemInfo(this, "SnapXUntitled", "titlebar[@accessiblerole='TitleBar']", 30000, null, "ba419d41-c69c-48d1-9428-1fa124397ddb");
                 _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "container/form//button[@text='&OK' and @controlid='1148']", 30000, null, "d1f7f33d-2726-4f36-88b2-45264cc236a8");               
                 _finishInfo = new RepoItemInfo(this, "Finish", "container/form/?/?/element/element/container/button[@text='Finish' and @controlid='3165']", 30000, null, "9ea4a455-c5f6-44e0-9ddb-3a5225feb9d4");
+                _buttongoInfo = new RepoItemInfo(this, "ButtonGo", "container[@controlid='59648']/form[@controlid='65281']//element[@controlid='59664']/container[@controlid='59648']/button[@text='Go']", 30000, null, "acfdcc93-fe78-46ca-80a6-8aa1b2bc5f34");
+
             }
 
             /// <summary>
@@ -215,6 +218,26 @@ namespace Mathemeatics
                 get
                 {
                     return _finishInfo;
+                }
+            }
+            [RepositoryItem("acfdcc93-fe78-46ca-80a6-8aa1b2bc5f34")]
+            public virtual Ranorex.Button ButtonGo
+            {
+                get
+                {
+                    return _buttongoInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonGo item info.
+            /// </summary>
+            [RepositoryItemInfo("acfdcc93-fe78-46ca-80a6-8aa1b2bc5f34")]
+            public virtual RepoItemInfo ButtonGoInfo
+            {
+                get
+                {
+                    return _buttongoInfo;
                 }
             }
         }

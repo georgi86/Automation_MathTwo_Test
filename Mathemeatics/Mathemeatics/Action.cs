@@ -79,6 +79,9 @@ namespace Mathemeatics
 
             Init();
 
+            string strFilePath = "D:\\Joro\\GIT_Automations\\AutomationMathTwo\\Reports\\Math.STA";
+            System.IO.File.Delete(strFilePath);
+
             // Click somewhere in the TitleBar to get a focus on all options in the Menu Bar
             Report.Log(ReportLevel.Info, "Mouse", "Click somewhere in the TitleBar to get a focus on all options in the Menu Bar\r\nMouse Left Click item 'SnapXUntitled.SnapXUntitled' at 740;9.", repo.SnapXUntitled.SnapXUntitledInfo, new RecordItemIndex(0));
             repo.SnapXUntitled.SnapXUntitled.Click("740;9");
@@ -143,8 +146,8 @@ namespace Mathemeatics
             repo.SnapXUntitled.ButtonOK.Click("55;11");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 25s.", new RecordItemIndex(13));
-            Delay.Duration(25000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 35s.", new RecordItemIndex(13));
+            Delay.Duration(35000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.Finish' at 41;11.", repo.SnapXUntitled.FinishInfo, new RecordItemIndex(14));
             repo.SnapXUntitled.Finish.Click("41;11");
@@ -209,8 +212,11 @@ namespace Mathemeatics
 
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'MathSTANotepad.Text15'.", repo.MathSTANotepad.Text15Info, new RecordItemIndex(19));
             Host.Current.CloseApplication(repo.MathSTANotepad.Text15, new Duration(0));
-            Delay.Milliseconds(0);
-            
+            Delay.Milliseconds(200);
+
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.ButtonGo' at 47;149.", repo.SnapXUntitled.ButtonGoInfo, new RecordItemIndex(0));
+            repo.SnapXUntitled.ButtonGo.Click("47;149");
+            Delay.Milliseconds(200);
         }
 
 #region Image Feature Data
